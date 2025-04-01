@@ -1,0 +1,2261 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>          <html class="lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>          <html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE]>      <html class="lt-ie10"> <![endif]-->
+<!--[if !IE]>           <html class="no-ie"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr">
+<!--<![endif]-->
+<head>
+        <meta name="robots" content="index, follow" />
+
+        <script language="JavaScript" type="text/javascript" src="/Content/Scripts/jquery?v=FK2DFpS1nSys4MTLub915n1wUKiFbreFChbYUXo9sU81"></script>
+
+
+<!-- Start VWO Async SmartCode -->
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+<script type='text/javascript' id='vwoCode'>
+    window._vwo_code || (function() {
+    var account_id=544731,
+    version=2.1,
+    settings_tolerance =2000,
+    library_tolerance = 5000,
+    hide_element='body',
+    hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important;',
+    /* DO NOT EDIT BELOW THIS LINE */
+    f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+'_settings',cc={};try{var c=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=c&&typeof c==='object'?c:{}}catch(e){}var stT=cc.stT==='session'?w.sessionStorage:w.localStorage;code={nonce:v&&v.nonce,use_existing_jquery:function(){return typeof use_existing_jquery!=='undefined'?use_existing_jquery:undefined},library_tolerance:function(){return typeof library_tolerance!=='undefined'?library_tolerance:undefined},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){if(performance.getEntriesByName('first-contentful-paint')[0]){return''}return typeof cc.hE==='string'?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){if(!f){f=true;var t=d.getElementById('_vis_opt_path_hides');if(t)t.parentNode.removeChild(t);if(e)(new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e}},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript';if(e.src){t.src=e.src}else{t.text=e.text}v&&t.setAttribute('nonce',v.nonce);d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){var n=this.getSettings(),i=d.createElement('script'),r=this;t=t||{};if(n){i.textContent=n;d.getElementsByTagName('head')[0].appendChild(i);if(!w.VWO||VWO.caE){stT.removeItem(cK);r.load(e)}}else{var o=new XMLHttpRequest;o.open('GET',e,true);o.withCredentials=!t.dSC;o.responseType=t.responseType||'text';o.onload=function(){if(t.onloadCb){return t.onloadCb(o,e)}if(o.status===200||o.status===304){_vwo_code.addScript({text:o.responseText})}else{_vwo_code.finish('&e=loading_failure:'+e)}};o.onerror=function(){if(t.onerrorCb){return t.onerrorCb(e)}_vwo_code.finish('&e=loading_failure:'+e)};o.send()}},getSettings:function(){try{var e=stT.getItem(cK);if(!e){return}e=JSON.parse(e);if(Date.now()>e.e){stT.removeItem(cK);return}return e.s}catch(e){return}},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;var e=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish();stT.removeItem(cK)},e);var t;if(this.hide_element()!=='body'){t=d.createElement('style');var n=this.hide_element(),i=n?n+this.hide_element_style():'',r=d.getElementsByTagName('head')[0];t.setAttribute('id','_vis_opt_path_hides');v&&t.setAttribute('nonce',v.nonce);t.setAttribute('type','text/css');if(t.styleSheet)t.styleSheet.cssText=i;else t.appendChild(d.createTextNode(i));r.appendChild(t)}else{t=d.getElementsByTagName('head')[0];var i=d.createElement('div');i.style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;display: block !important;';i.setAttribute('id','_vis_opt_path_hides');i.classList.add('_vis_hide_layer');t.parentNode.insertBefore(i,t.nextSibling)}var o=window._vis_opt_url||d.URL,s='https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(o)+'&vn='+version;if(w.location.search.indexOf('_vwo_xhr')!==-1){this.addScript({src:s})}else{this.load(s+'&x=true')}}};w._vwo_code=code;})();
+</script>
+<!-- End VWO Async SmartCode -->
+
+        <!-- OneTrust Cookies Consent Notice start-->
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="a3ce8355-88ca-4376-9544-a9e7484edf97"></script>
+        <script type="text/javascript">
+         // Callback, after the onetrust cookie script has run
+         
+            function OptanonWrapper() {
+                reorderCookieConsentButtons();
+                handleCookies();
+            }
+            // Function to handle setting cookies after consent
+            function handleCookies() {
+                var categories = checkConsent();
+            //analytical Cookie Id according to oneTrust is 4
+                let analyticalCookie = '4';
+                if (categories.includes(analyticalCookie)) {
+                    //VWO Script Exec
+                    _vwo_settings_timer = _vwo_code.init();
+                    //VWO Script
+                }
+            }
+
+
+            // Function to check if user has given consent for a specific category
+            function checkConsent() {
+                return OptanonActiveGroups;
+                //    return OneTrust.IsAlertBoxClosedAndValid() && OneTrust.GetDomainData().Groups[category].isEnabled;
+
+            }
+            function reorderCookieConsentButtons() {
+                const cookieSettingsButton = document.getElementById("onetrust-pc-btn-handler");
+                const acceptButton = document.getElementById("onetrust-accept-btn-handler");
+                const rejectButton = document.getElementById("onetrust-reject-all-handler");
+                const buttonsContainer = document.getElementById("onetrust-button-group");
+
+                // Here we want to have next order: ACCEPT->REJECT->SETTINGS
+                // We don't want to clean the root div and place element because we could have another children in the future
+                if (buttonsContainer) {
+                    // So, we can move REJECT before SETTINGS (SETTINGS can be NULL here, insertBefore can have null for the second argument)
+                    if (rejectButton) {
+                        rejectButton.style.float = "none";
+                        buttonsContainer.insertBefore(rejectButton, cookieSettingsButton);
+                    }
+
+                    // And doesn't matter who is the first element (SETTINGS, REJECT or null) - we move accept to the first position
+                    if (acceptButton) {
+                        acceptButton.style.float = "none";
+                        buttonsContainer.insertBefore(acceptButton, buttonsContainer.firstChild);
+                    }
+
+                    // In the view (465px - 896px: when we have buttons under the text) we have a float attribute that doesn't allow us to switch the buttons
+                    if (cookieSettingsButton) {
+                        cookieSettingsButton.style.float = "none";
+                    }
+                }
+            }
+        </script>
+        <!-- OneTrust Cookies Consent Notice end -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'Platform Name': 'Umbraco',
+            'Platform Version': '8.13.0'
+        });
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+		window.dataLayer = window.dataLayer || [];
+
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start':
+					new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5M9GR3');
+    </script>
+    <!-- End Google Tag Manager -->
+
+        <!-- Facebook-Domain-Verification -->
+        <meta name="facebook-domain-verification" content="7vf3krd7xp7i6f64oqb7zrw1f4fnqb" />
+        <!-- End Facebook-Domain-Verification -->
+    <title>Pizzas Menu - Domino&#39;s Pizza</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="cleartype" content="on" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1 /"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRBR-ca77a1c509df51ce656","applicationID":"998564015","transactionName":"ZVdabUcAV0tVVRcKVlwddW92TnRdWkMzAl5XcVdXQRNWVFhTEUx0V1xNaVQGXA==","queueTime":15,"applicationTime":39,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1120080598",accountID:"1334198",trustKey:"3692316",xpid:"VQUEVVdaABAJXVlXAQUHV1E=",licenseKey:"NRBR-ca77a1c509df51ce656",applicationID:"998564015"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(31),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(32),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),S=t(15),P=t(10),M=t("ee"),C=M.get("tracer"),N=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),P.on(p,r),M.on(d,o),b.on(l,o),P.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),S.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),C.buffer([u,"no-"+u]),P.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(P,"new-jsonp"),a(P,"jsonp-end"),a(P,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,N(!0)),w[v]("load",i,N(!0)),w[v]("popstate",function(){i(0,U>1)},N(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(32),a=t(31);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(31),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(28),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=t(25).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;if("string"==typeof i?n=i:"object"==typeof i&&i instanceof y?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n),"data"!==this.params.protocol){var s=(""+(i&&i instanceof y&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(31),s=t(32),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(33);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var o=[r],i=a({});i&&o.push(i),l("lcp",o)}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,l("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),l("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,p,l=t("handle"),h=t("loader"),m=t(30),v=t(23),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(o);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}p=new PerformanceObserver(i);try{p.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],28:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(t)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],29:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],30:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],31:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],32:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],33:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(31),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!T++){var t=O.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+O.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===m.readyState&&i()}function i(){s("mark",["domContent",a()+O.offset],null,"api")}var a=t(26),s=t("handle"),c=t(31),f=t("ee"),u=t(29),d=t(21),p=t(23),l=d.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",w="attachEvent",g=h.XMLHttpRequest,y=g&&g.prototype,x=!1;NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:g,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1216.min.js"},R=g&&y&&y[v]&&!/CriOS/.test(navigator.userAgent),O=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:x};if(!x){t(20),t(27),m[v]?(m[v]("DOMContentLoaded",i,p(!1)),h[v]("load",r,p(!1))):(m[w]("onreadystatechange",o),h[w]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var T=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(32),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);</script>
+    <meta http-equiv="Cache-control" content="public">
+    <meta http-equiv="content-language" content="fr">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+        <meta name="google-site-verification" content="wqQmK0HXVfMzNikh0LTqrqt_4-Mh9dhdSAdnp1lPGA8" />
+    <script type="text/javascript">
+		window.instrumentationKey = "74b0420b-e0f2-4cc4-a92e-785909de7185";
+    </script>
+
+<script src="/Content/Scripts/detect-safari.js"></script>
+    <script>function onDocumentReady(n,t,i){if(typeof t=="undefined"&&(t=15e3),typeof i=="undefined"&&(i=200),t>0&&typeof $=="undefined"){setTimeout(function(){onDocumentReady(n,t-i)},i);return}$(document).ready(n())}function onDocumentLoad(n,t,i){if(typeof t=="undefined"&&(t=15e3),typeof i=="undefined"&&(i=200),t>0&&typeof $=="undefined"){setTimeout(function(){onDocumentReady(n,t-i)},i);return}$(document).load(n())}function isDevEnvironment(){return document.location.hostname=="localhost"?!0:document.location.hostname=="pwrdev.dominos.local"?!0:document.location.hostname=="pwrqa.dominos.local"?!0:!1}function toggleSection(n,t){(t==undefined||t==null)&&(t=!1);var i=$("#"+n);i.css("display",t||i.css("display")==="none"?"block":"none")}typeof console=="undefined"&&(console={},console.log=function(){})</script>
+
+    
+
+
+<script type='text/javascript' class='optanon-category-2'>
+    var appInsights = window.appInsights || function (config) {
+    function s(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, r = document, f = window, e = "script", o = r.createElement(e), i, u; for (o.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", r.getElementsByTagName(e)[0].parentNode.appendChild(o), t.cookie = r.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) s("track" + i.pop()); return config.disableExceptionTracking || (i = "onerror", s("_" + i), u = f[i], f[i] = function (config, r, f, e, o) { var s = u && u(config, r, f, e, o); return s !== !0 && t["_" + i](config, r, f, e, o), s }), t
+    }({
+    instrumentationKey: window.instrumentationKey
+    });
+
+    window.appInsights = appInsights;
+    appInsights.trackPageView();
+</script>
+
+
+
+    <script type='text/javascript' async src='/Content/Scripts/CommonBundle?v=Ia_iF9YdZK6bH4CSP5hxUPHjzC7a1HN2Tc2C7XDhYbk1'></script>
+
+<link href="/Content/Styles/default_v1?v=dwrdOy4kUQ7gaw90Ufs6fnZONWh4PqJ3cC-70q4sE7M1" rel="stylesheet"/>
+        	<link rel="alternate" hreflang="fr-FR" href="https://www.dominos.fr/la-carte/nos-pizzas" />
+
+    
+        <meta name="description" content="Pizzas - Les Menus, Nouveaut&#233;s &amp; Bestsellers &#128293;, Les Fromages Addicts &#129472;, Les Carnivores &#129430;, Les Grands Classiques &#127829;, Les Recettes du Monde &#128506;️, Cr&#233;ez Votre Pizza, Boissons, My Domino&#39;s Pizzas, My Domino&#39;s Cal&#39;z, My Domino&#39;s Box, Les Cal&#39;z, Fromage, Poulet, Domino&#39;s Fries &amp; Potatoes, Les Sauces, Les Cr&#232;mes Glac&#233;es, Les Desserts, Les Menus, Nouveaut&#233;s &amp; Bestsellers &#128165;&#128293;" />
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.dominos.fr/la-carte/nos-pizzas" />
+        <link rel="canonical" href="https://www.dominos.fr/la-carte/nos-pizzas" />
+
+
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="XUECU-37X8P-FLXD9-3WF9C-LP3LF",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"XUECU-37X8P-FLXD9-3WF9C-LP3LF";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="mzs7hpk7mrshgz7lgi2a-f-03199154b-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"1244046","ak.ai":parseInt("286240",10),"ak.ol":"0","ak.cr":69,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"89e87ab5","ak.r":50092,"ak.a2":n,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"102.101.243.0","ak.cport":57472,"ak.gh":"95.100.100.108","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1743467060","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==sg3hIAIGz9NWZ3rgamBANSKaEAQuQgolvDGKKlwFnjPBXwTk6P8elHjUHG9Bu4lHpPo3hSeau1VDmEDrs5ElyuhMfI3fTZzgACtKDb8tYCCCHmvoO7BKp2Hp3kbte2dhHVukelJohfl26Vn9ASraiMRgd0sk60/d+BHOjF6VL7psCtSazZNPF9TmDHPgtxe+H28L7R2zTohYOYhyEuzGSWiSOYWgZzBnhsR/f4/cswBCV5aWvjoWMR9l6vCG0z3t8Dp0vTIwOdqrrHgbHoysWiNrijorRvgUIIXsi4WRqvA4qw7e+U3A898Mm58ezWkjsEg4mbSszKPL2lko+YfW3Adktnh4LFsHPxkH99x/TJFft/rtujkm8t157mBwQdZEvK6dGh/BQXN4kciVhPAwI6jEEz6IU7gkY0zZwtCwOTA=","ak.pv":"94","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body class="fr-FR FR_v1 standard-layout" style="margin-top:15px">
+
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5M9GR3"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <!-- End Google Tag Manager -->
+
+
+    <div id="wrapper" class="fr-FR FR">
+
+
+<style>.cookie-wall-container{background:#fff;color:#000;text-align:center;position:fixed;z-index:99999;width:100%;display:none}.cookie-wall-container .cookie-wall-inner{margin:0 auto;padding:.5em;padding:.25em;display:table;max-width:1440px}.cookie-wall-container .cookie-wall-inner>div{display:table-cell;vertical-align:middle;padding:.25em}.cookie-wall-container .cookie-wall-inner p{font-size:11.2px;line-height:1em;padding-top:0;color:#000;font-family:"droid_sans",verdana,geneva,sans-serif}@media(max-width:414px){.cookie-wall-container .cookie-wall-inner p{margin-bottom:0}}.cookie-wall-container .cookie-wall-inner p a{color:#000;text-decoration:underline;text-transform:none}.cookie-wall-container .cookie-wall-inner p a:hover{color:#000}.cookie-wall-container .cookie-wall-inner .btn{white-space:nowrap}.cookie-wall-container .cookie-wall-inner select{font-size:.6em;display:inline-block}.dropdown-button-group{white-space:nowrap;position:relative;display:inline-block}.dropdown-button-group .blue{background-color:#006991!important;border-color:#005778!important;transition:all 50ms ease}.dropdown-button-group .blue:hover,.dropdown-button-group .blue:focus{background-color:#005778!important}.dropdown-button-group button{display:inline-block;margin-bottom:0;text-align:center;vertical-align:middle;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;padding:6px 12px;padding-left:9px;padding-right:9px;text-transform:uppercase;font:normal normal normal 20px/20px "Oswald",sans-serif;font-size:14px;color:#fff;position:relative}.dropdown-button-group button:first-of-type{border-radius:3px 0 0 3px}.dropdown-button-group button:last-of-type{border-radius:0 3px 3px 0}.dropdown-button-group button:last-of-type div.caret{margin-top:-3px;margin-left:-1px;display:inline-block;width:0;height:0;vertical-align:middle;border-top:4px solid;border-right:4px solid transparent;border-left:4px solid transparent;color:#fff}.dropdown-button-group button:last-of-type:focus+ul,.dropdown-button-group button:last-of-type:hover+ul{display:block}.dropdown-button-group ul.option-list{display:none;position:absolute;top:100%;margin-top:2px;right:0;border:1px solid gray;border:1px solid rgba(0,0,0,.15);border-radius:3px}.dropdown-button-group ul.option-list:hover{display:block}.dropdown-button-group ul.option-list li{text-align:right}.dropdown-button-group ul.option-list li:first-of-type a{border-radius:3px 0 0 0}.dropdown-button-group ul.option-list li:last-of-type a{border-radius:0 0 3px 3px}.dropdown-button-group ul.option-list li a{font-size:.8em;display:block;background:#fff;color:#212121;white-space:nowrap;padding:.5em 1em}.dropdown-button-group ul.option-list li a:hover{background:#f5f5f5;text-decoration:none}#wrapper.fr-FR .cookie-wall-container,#wrapper.nl-NL .cookie-wall-container,#wrapper.nl-BE .cookie-wall-container,#wrapper.fr-BE .cookie-wall-container{bottom:0}#wrapper.fr-FR .dropdown-button-group ul.option-list,#wrapper.nl-NL .dropdown-button-group ul.option-list,#wrapper.nl-BE .dropdown-button-group ul.option-list,#wrapper.fr-BE .dropdown-button-group ul.option-list{top:unset;margin-top:unset;margin-bottom:2px;bottom:100%}#wrapper.fr-FR .dropdown-button-group button:last-of-type div.caret,#wrapper.nl-NL .dropdown-button-group button:last-of-type div.caret,#wrapper.nl-BE .dropdown-button-group button:last-of-type div.caret,#wrapper.fr-BE .dropdown-button-group button:last-of-type div.caret{border-bottom:4px solid;border-top:none}</style>
+
+
+<div id="nav">
+            <div class="top-header-bar">
+            <div id="lang-switcher">
+                <a href="/english">
+                    <img src="/Content/Images/flag_gb.png" />
+                    <span>English</span>
+                </a>
+            </div>
+        </div>
+
+    <div class="header">
+        <i id="hamburger-menu-link" onclick="toggleMobileMenu_v1()">
+            <svg class="icon"><use xlink:href="/Content/Images/svg/symbol-defs-eu.svg#icon-Menu-Button"></use></svg>
+        </i>
+        <a href="/" aria-label="Domino's Home Page" class="headerLogo">
+                <svg class="logo"><use xlink:href="/Content/Images/svg/symbol-defs-eu.svg#icon-Dominos-Logo"></use></svg>
+
+        </a>
+        <ul class="menuitem">
+                        <li class="header-menu-link hideMenu menu-active">
+                            <a id="" href="/la-carte">Carte</a>
+
+                        </li>
+                        <li class="header-menu-link hideMenu">
+                            <a id="" href="/trouver-son-dominos">MAGASINS</a>
+
+                        </li>
+                        <li class="header-menu-link hideMenu">
+                            <a id="" href="/les-promos">PROMOS</a>
+
+                        </li>
+                        <li class="header-menu-link hideMenu">
+                            <a id="" href="/dominos-pizza/dominos-programme-fidelite">fid&#233;lit&#233;</a>
+
+                        </li>
+                        <li class="header-menu-link hideMenu">
+                            <a id="" href="https://www.dominos.fr/dominos-pizza/la-marque/nos-engagements-dominos">ENGAGEMENTS</a>
+
+                        </li>
+                        <li class="header-menu-link hideMenu">
+                            <a id="" target="_blank" href="https://carrieres.dominos.fr/">EMPLOIS</a>
+
+                        </li>
+        </ul>
+
+        <a href="https://commande.dominos.fr/login" id="mobile-menu-link-phone-no-link">
+            <span id="mobile-menu-link-phone-no">
+                <svg class="icon"><use xlink:href="/Content/Images/svg/symbol-defs-eu.svg#icon-Accounts"></use></svg>
+            </span>
+        </a>
+
+        <ul class="menuitem">
+            <li id="login-button" class="header-menu-link ">
+                <a href="https://commande.dominos.fr/login">
+                    <svg class="icon-Accounts"><use xlink:href="/Content/Images/svg/symbol-defs-eu.svg#icon-Accounts"></use></svg>
+                    <span class="lowercase">Connexion</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div id="responsive-mobile-menu">
+    <div id="mobile-menu-overlay" onclick="toggleMobileMenu_v1()"></div>
+    
+
+
+
+
+        <ul>
+                <li>
+                        <a id="" href="/la-carte">Carte</a>
+
+                <li>
+                        <a id="" href="/trouver-son-dominos">MAGASINS</a>
+
+                <li>
+                        <a id="" href="/les-promos">PROMOS</a>
+
+                <li>
+                        <a id="" href="/dominos-pizza/dominos-programme-fidelite">fid&#233;lit&#233;</a>
+
+                <li>
+                        <a id="" href="https://www.dominos.fr/dominos-pizza/la-marque/nos-engagements-dominos">ENGAGEMENTS</a>
+
+                <li>
+                        <a id="" target="_blank" href="https://carrieres.dominos.fr/">EMPLOIS</a>
+
+                    </ul>
+</div>
+                
+
+<link href="/Content/Styles/Menu_v1?v=CwnoN-7wJgDvdcBjaobuGAlJxb3HlU2AwweMdu4g3_M1" rel="stylesheet"/>
+
+<!-- desktop links -->
+<div id="menulinks-wrapper">
+    <div id="menulinks" class="content">
+        <ul class="product-menu">
+                <!-- top level menus from service -->
+                    <li class="selected">
+                        <a href="/la-carte/nos-pizzas" )>
+                            Pizzas
+                        </a>
+                            <div class="product-dropdown">Les Menus</div>
+                            <ul class="product-submenu hide">
+<li class="submenu-les-menus"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-les-menus" onclick="scrollToWithOffset_v1('#submenu-les-menus');return false;">Les Menus</a></li><li class="submenu-nouveauts-bestsellers"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-nouveauts-bestsellers" onclick="scrollToWithOffset_v1('#submenu-nouveauts-bestsellers');return false;">Nouveautés & Bestsellers 🔥</a></li><li class="submenu-les-fromages-addicts"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-les-fromages-addicts" onclick="scrollToWithOffset_v1('#submenu-les-fromages-addicts');return false;">Les Fromages Addicts 🧀</a></li><li class="submenu-les-carnivores"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-les-carnivores" onclick="scrollToWithOffset_v1('#submenu-les-carnivores');return false;">Les Carnivores 🦖</a></li><li class="submenu-les-grands-classiques"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-les-grands-classiques" onclick="scrollToWithOffset_v1('#submenu-les-grands-classiques');return false;">Les Grands Classiques 🍕</a></li><li class="submenu-les-recettes-du-monde"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-les-recettes-du-monde" onclick="scrollToWithOffset_v1('#submenu-les-recettes-du-monde');return false;">Les Recettes du Monde 🗺️</a></li><li class="submenu-crez-votre-pizza"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-crez-votre-pizza" onclick="scrollToWithOffset_v1('#submenu-crez-votre-pizza');return false;">Créez Votre Pizza</a></li><li class="submenu-boissons"><a class="anchor-link" href="/la-carte/nos-pizzas#submenu-boissons" onclick="scrollToWithOffset_v1('#submenu-boissons');return false;">Boissons</a></li>
+                            </ul>
+                    </li>
+                    <li class="">
+                        <a href="/la-carte/?menu.mybox" )>
+                            My Domino&#39;s Box
+                        </a>
+                            <div class="product-dropdown">My Domino&#39;s Pizzas</div>
+                            <ul class="product-submenu hide">
+<li class="submenu-my-dominos-pizzas"><a class="anchor-link" href="/la-carte/?menu.mybox#submenu-my-dominos-pizzas" onclick="scrollToWithOffset_v1('#submenu-my-dominos-pizzas');return false;">My Domino's Pizzas</a></li><li class="submenu-my-dominos-calz"><a class="anchor-link" href="/la-carte/?menu.mybox#submenu-my-dominos-calz" onclick="scrollToWithOffset_v1('#submenu-my-dominos-calz');return false;">My Domino's Cal'z</a></li>
+                            </ul>
+                    </li>
+                    <li class="">
+                        <a href="/la-carte/?menu.calz" )>
+                            Cal&#39;z
+                        </a>
+                            <div class="product-dropdown">My Domino&#39;s Box</div>
+                            <ul class="product-submenu hide">
+<li class="submenu-my-dominos-box"><a class="anchor-link" href="/la-carte/?menu.calz#submenu-my-dominos-box" onclick="scrollToWithOffset_v1('#submenu-my-dominos-box');return false;">My Domino's Box</a></li><li class="submenu-les-calz"><a class="anchor-link" href="/la-carte/?menu.calz#submenu-les-calz" onclick="scrollToWithOffset_v1('#submenu-les-calz');return false;">Les Cal'z</a></li>
+                            </ul>
+                    </li>
+                    <li class="">
+                        <a href="/la-carte/?menu.entrees" )>
+                            Snacks
+                        </a>
+                            <div class="product-dropdown">Fromage</div>
+                            <ul class="product-submenu hide">
+<li class="submenu-fromage"><a class="anchor-link" href="/la-carte/?menu.entrees#submenu-fromage" onclick="scrollToWithOffset_v1('#submenu-fromage');return false;">Fromage</a></li><li class="submenu-poulet"><a class="anchor-link" href="/la-carte/?menu.entrees#submenu-poulet" onclick="scrollToWithOffset_v1('#submenu-poulet');return false;">Poulet</a></li><li class="submenu-dominos-fries-potatoes"><a class="anchor-link" href="/la-carte/?menu.entrees#submenu-dominos-fries-potatoes" onclick="scrollToWithOffset_v1('#submenu-dominos-fries-potatoes');return false;">Domino's Fries & Potatoes</a></li><li class="submenu-les-sauces"><a class="anchor-link" href="/la-carte/?menu.entrees#submenu-les-sauces" onclick="scrollToWithOffset_v1('#submenu-les-sauces');return false;">Les Sauces</a></li>
+                            </ul>
+                    </li>
+                    <li class="">
+                        <a href="/la-carte/nos-desserts" )>
+                            Desserts &amp; Glaces
+                        </a>
+                            <div class="product-dropdown">Les Cr&#232;mes Glac&#233;es</div>
+                            <ul class="product-submenu hide">
+<li class="submenu-les-crmes-glaces"><a class="anchor-link" href="/la-carte/nos-desserts#submenu-les-crmes-glaces" onclick="scrollToWithOffset_v1('#submenu-les-crmes-glaces');return false;">Les Crèmes Glacées</a></li><li class="submenu-les-desserts"><a class="anchor-link" href="/la-carte/nos-desserts#submenu-les-desserts" onclick="scrollToWithOffset_v1('#submenu-les-desserts');return false;">Les Desserts</a></li>
+                            </ul>
+                    </li>
+                    <li class="">
+                        <a href="/la-carte/?menu.drinks" )>
+                            Boissons
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="/la-carte/?menu.lespromos" )>
+                            Menus
+                        </a>
+                            <div class="product-dropdown">Les Menus</div>
+                            <ul class="product-submenu hide">
+<li class="submenu-les-menus"><a class="anchor-link" href="/la-carte/?menu.lespromos#submenu-les-menus" onclick="scrollToWithOffset_v1('#submenu-les-menus');return false;">Les Menus</a></li><li class="submenu-nouveauts-bestsellers"><a class="anchor-link" href="/la-carte/?menu.lespromos#submenu-nouveauts-bestsellers" onclick="scrollToWithOffset_v1('#submenu-nouveauts-bestsellers');return false;">Nouveautés & Bestsellers 💥🔥</a></li>
+                            </ul>
+                    </li>
+
+        </ul>
+    </div>
+</div>
+<script src="/Content/Scripts/Menuv1?v=RXQP4_HaTKyb4n6QVAvX-Qx0VIlVljaBoelbboBKxSM1"></script>
+
+<section id="dynamicStoreSearchSection" class="gridArticle content">
+
+	<div id="dvSearchStore" class="container storeSearchMain hidden">
+		<div class="row">
+			<div class="col-md-2 column mystoreDiv">
+				<h2>DYNAMIC_STORE_SEARCH_MYSTORE_LABEL</h2>
+			</div>
+			<div class="col-md-9 col-sm-12 col-xs-12 column input-group addressInputMainDiv">
+				<section class="mainSection">
+					<div>
+						<div id="input-suburb" class="input-group">
+
+							<svg id="icon-pickup"><use xlink:href="/Content/Images/svg/symbol-defs.svg#icon-pickup"></use></svg>
+
+							<label id="customer-suburb-label" for="customer-suburb">
+								Choisissez votre domino’s pour acc&#233;der aux tarifs
+							</label>
+							<div class="field-with-validation">
+								<input id="customer-suburb" class="form-control" type="text" name="Customer.Suburb" autocomplete="off" spellcheck="false" value="" placeholder="Saisissez ici votre adresse, votre code postal ou votre ville" />
+								<span id="loading-indicator">
+									<img class="image-loading" src="/Content/Images/rolo-ajax-loader.gif" alt="Please wait while loading">
+								</span>
+							</div>
+						</div>
+						<section class="search-results"><ul class="combo-search-results option-list store-list"></ul></section>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="/Content/Scripts/DynamicStoreSearch_v1?v=lwSc82F9_Vg7qRFXpg9X-9_ielxGJdJMOWu30dUWOgY1"></script>
+
+<link href="/Content/Styles/DynamicStoreSearch_v1?v=bhj7atdSTPiEArW9er7mO7Sg9mFpPaboEoxReSzX5ic1" rel="stylesheet"/>
+
+<script type="text/javascript">
+    var countryCode = 'FR';
+    var menuCode = 'menu';
+    var noResultFoundMsg = 'PAS DE DOMINO&#39;S PIZZA TROUV&#201; VILLE';
+    var maxStores = '10';
+    var store_number = '0';
+    var dominos_label = 'Domino&#39;s';
+    var selectBtnLabel = 'S&#233;lectionner';
+</script><!-- menu page cshtml -->
+<pizzamenus class="content">
+    <div class="background-overlay"></div>
+    <!-- mobile links -->
+    <a id="back-to-menu" class="back-link" href="/la-carte">
+        LA CARTE
+    </a>
+    <!-- preferred store -->
+    
+
+
+
+<div class="pizza-category first-category">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-les-menus">
+
+
+
+                <span class="subMenuName1">Les</span>
+                    <span class="subMenuName2">Menus </span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="https://commande.dominos.fr/?vc=17716" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_17716" class="pizza-image" src="/ManagedAssets/FR/combo/17716/FR_17716_fr_MenuImage_14594.png?v1758180010">
+                            </div>
+
+                            <span class="menu-entry"> Jours Fous: 1 Pizza Medium &#224; 7,99€ (Larges +1€) </span>
+                                <p class="menu-page-product-description"> Jours Fous: 1 Pizza Medium à 7,99€ (Larges +1€)</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_17716" class="order-now red-button white-text" href="https://commande.dominos.fr/?vc=17716">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="https://commande.dominos.fr/?vc=29390" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_29390" class="pizza-image" src="/ManagedAssets/FR/combo/29390/FR_29390_fr_MenuImage_14692.png?v1937924901">
+                            </div>
+
+                            <span class="menu-entry">1 Medium Pizza + 1 Side + 33cl Drink + 1 Collector&#39;s Pin from 14,95€ </span>
+                                <p class="menu-page-product-description">1 Medium Pizza + 1 Side + 33cl Drink + 1 Collector's Pin from 14...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_29390" class="order-now red-button white-text" href="https://commande.dominos.fr/?vc=29390">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="https://commande.dominos.fr/?vc=23325" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_23325" class="pizza-image" src="/ManagedAssets/FR/combo/23325/FR_23325_fr_MenuImage_14692.png?v-1108234161">
+                            </div>
+
+                            <span class="menu-entry">2 Medium Pizzas + 2 Sides + 1.5L/1.25L Drink + 2 Collector&#39;s Pins from 26,95€ </span>
+                                <p class="menu-page-product-description">2 Medium Pizzas + 2 Sides + 1.5L/1.25L Drink + 2 Collector's Pin...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_23325" class="order-now red-button white-text" href="https://commande.dominos.fr/?vc=23325">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="https://commande.dominos.fr/?vc=29802" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_29802" class="pizza-image" src="/ManagedAssets/FR/combo/29802/FR_29802_fr_MenuImage_14474.png?v1137816265">
+                            </div>
+
+                            <span class="menu-entry">1 pizza + 1 accompagnement &#224; partir de 10,45€ </span>
+                                <p class="menu-page-product-description">1 pizza + 1 accompagnement à partir de 10,45€</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_29802" class="order-now red-button white-text" href="https://commande.dominos.fr/?vc=29802">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="https://commande.dominos.fr/?vc=27756" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_27756" class="pizza-image" src="/ManagedAssets/FR/combo/27756/FR_27756_fr_MenuImage_14474.png?v1821787566">
+                            </div>
+
+                            <span class="menu-entry">2 pizzas + 2 accompagnements &#224; partir de 18,95€ </span>
+                                <p class="menu-page-product-description">2 pizzas + 2 accompagnements à partir de 18,95€</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_27756" class="order-now red-button white-text" href="https://commande.dominos.fr/?vc=27756">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="https://commande.dominos.fr/?vc=21584" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_21584" class="pizza-image" src="/ManagedAssets/FR/combo/21584/FR_21584_fr_MenuImage_14474.png?v-2005932990">
+                            </div>
+
+                            <span class="menu-entry">2 Pizzas &#224; partir de 13,95€ (parmi une s&#233;lection de produits) </span>
+                                <p class="menu-page-product-description">2 Pizzas à partir de 13,95€ (parmi une sélection de produits)</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_21584" class="order-now red-button white-text" href="https://commande.dominos.fr/?vc=21584">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="https://commande.dominos.fr/?vc=18824" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_18824" class="pizza-image" src="/ManagedAssets/FR/combo/18824/FR_18824_fr_MenuImage_14474.png?v-1825675191">
+                            </div>
+
+                            <span class="menu-entry">3 Pizzas &#224; partir de 21,45€ (parmi une s&#233;lection de produits) </span>
+                                <p class="menu-page-product-description">3 Pizzas à partir de 21,45€ (parmi une sélection de produits)</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_18824" class="order-now red-button white-text" href="https://commande.dominos.fr/?vc=18824">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pizza-category ">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-nouveauts-bestsellers">
+
+
+
+                <span class="subMenuName1">Nouveaut&#233;s</span>
+                    <span class="subMenuName2">&amp; Bestsellers &#128293; </span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/chicken-satay-pcsa" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCSA" class="pizza-image" src="/ManagedAssets/FR/product/PCSA/FR_PCSA_fr_menu_14428.png?v-1604966297">
+                            </div>
+
+                            <span class="menu-entry">Chicken Satay </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, poulet rôti, champig...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCSA" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCSA">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/curry-bangkok-pcubk" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCUBK" class="pizza-image" src="/ManagedAssets/FR/product/PCUBK/FR_PCUBK_fr_menu_14428.png?v-1592242311">
+                            </div>
+
+                            <span class="menu-entry">Curry Bangkok </span>
+                                <p class="menu-page-product-description">Sauce curry thaï au lait de coco et citronnelle, mozzarella, pou...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCUBK" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCUBK">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/cannibale-pcan" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Iconique/FR_Iconique_fr_14258.png?v-58853239' alt='Les Iconiques'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PCAN" class="pizza-image" src="/ManagedAssets/FR/product/PCAN/FR_PCAN_fr_menu_13364.png?v1697565739">
+                            </div>
+
+                            <span class="menu-entry">Cannibale </span>
+                                <p class="menu-page-product-description">Sauce barbecue, mozzarella, poulet rôti, merguez, haché au boeuf...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCAN" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCAN">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/4-fromages-p4fr" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Sans.Viande/FR_Sans.Viande_fr_14158.png?v-1759411565' alt='Sans viande.'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_P4FR" class="pizza-image" src="/ManagedAssets/FR/product/P4FR/FR_P4FR_fr_menu_13347.png?v1701660714">
+                            </div>
+
+                            <span class="menu-entry">4 Fromages </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, chèvre, fromage râpé (Gouda & Emmental...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_P4FR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=P4FR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/crez-votre-pizza-plus-dun-million-de-possibilits-pdes.mypiz" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PDES.MYPIZ" class="pizza-image" src="/ManagedAssets/FR/product/PDES.MYPIZ/FR_PDES.MYPIZ_fr_menu_14474.png?v-1789255730">
+                            </div>
+
+                            <span class="menu-entry">Cr&#233;ez votre Pizza - Plus d&#39;un Million de Possibilit&#233;s </span>
+                                <p class="menu-page-product-description">Base au choix, jusqu'à 11 ingrédients au choix dont 3 ingrédient...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PDES.MYPIZ" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PDES.MYPIZ">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/hot-cookiminos-edhco" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Sans.Viande/FR_Sans.Viande_fr_14158.png?v-1759411565' alt='Sans viande.'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_EDHCO" class="pizza-image" src="/ManagedAssets/FR/product/EDHCO/FR_EDHCO_fr_menu_13706.png?v1249521804">
+                            </div>
+
+                            <span class="menu-entry">Hot Cookimino&#39;s </span>
+                                <p class="menu-page-product-description">Cookie sablé fourré à la pâte à tartiner. Tout juste sorti du fo...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_EDHCO" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=EDHCO">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pizza-category ">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-les-fromages-addicts">
+
+
+
+                <span class="subMenuName1">Les</span>
+                    <span class="subMenuName2">Fromages Addicts &#129472; </span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/chickn-raclette-pcnr" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCNR" class="pizza-image" src="/ManagedAssets/FR/product/PCNR/FR_PCNR_fr_menu_14562.png?v-1900392953">
+                            </div>
+
+                            <span class="menu-entry">Chick&#39;n Raclette </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, poulet rôti, raclett...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCNR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCNR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/authentique-raclette-prac" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Iconique/FR_Iconique_fr_14258.png?v-58853239' alt='Les Iconiques'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PRAC" class="pizza-image" src="/ManagedAssets/FR/product/PRAC/FR_PRAC_fr_menu_13347.png?v1026144196">
+                            </div>
+
+                            <span class="menu-entry">Authentique Raclette </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, bacon, pommes de ter...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PRAC" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PRAC">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/savoyarde-psvy" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Iconique/FR_Iconique_fr_14258.png?v-58853239' alt='Les Iconiques'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PSVY" class="pizza-image" src="/ManagedAssets/FR/product/PSVY/FR_PSVY_fr_menu_13359.png?v548191403">
+                            </div>
+
+                            <span class="menu-entry">Savoyarde </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, lardons fumés, pomme...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PSVY" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PSVY">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/4-fromages-p4fr" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Sans.Viande/FR_Sans.Viande_fr_14158.png?v-1759411565' alt='Sans viande.'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_P4FR" class="pizza-image" src="/ManagedAssets/FR/product/P4FR/FR_P4FR_fr_menu_13347.png?v1701660714">
+                            </div>
+
+                            <span class="menu-entry">4 Fromages </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, chèvre, fromage râpé (Gouda & Emmental...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_P4FR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=P4FR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/5-fromages-p5fr" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Sans.Viande/FR_Sans.Viande_fr_14158.png?v-1759411565' alt='Sans viande.'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_P5FR" class="pizza-image" src="/ManagedAssets/FR/product/P5FR/FR_P5FR_fr_menu_13347.png?v-1641570307">
+                            </div>
+
+                            <span class="menu-entry">5 Fromages </span>
+                                <p class="menu-page-product-description">Base sauce cheddar, mozzarella, fromage râpé (Gouda & Emmental),...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_P5FR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=P5FR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/chvremiel-pcmi" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Sans.Viande/FR_Sans.Viande_fr_14158.png?v-1759411565' alt='Sans viande.'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PCMI" class="pizza-image" src="/ManagedAssets/FR/product/PCMI/FR_PCMI_fr_menu_13347.png?v281148893">
+                            </div>
+
+                            <span class="menu-entry">Ch&#232;vre-Miel </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, chèvre, miel françai...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCMI" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCMI">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/bacon-chvre-miel-pbcm" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PBCM" class="pizza-image" src="/ManagedAssets/FR/product/PBCM/FR_PBCM_fr_menu_13347.png?v1323156322">
+                            </div>
+
+                            <span class="menu-entry">Bacon Ch&#232;vre Miel </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, bacon, chèvre, miel ...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PBCM" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PBCM">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pizza-category ">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-les-carnivores">
+
+
+
+                <span class="subMenuName1">Les</span>
+                    <span class="subMenuName2">Carnivores &#129430; </span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/campagnarde-pcamp" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCAMP" class="pizza-image" src="/ManagedAssets/FR/product/PCAMP/FR_PCAMP_fr_menu_14474.png?v2089304946">
+                            </div>
+
+                            <span class="menu-entry">Campagnarde </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, poulet rôti, jambon,...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCAMP" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCAMP">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/chickenita-pepperoni-pchi2" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Iconique/FR_Iconique_fr_14258.png?v-58853239' alt='Les Iconiques'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PCHI2" class="pizza-image" src="/ManagedAssets/FR/product/PCHI2/FR_PCHI2_fr_menu_14474.png?v-1429196221">
+                            </div>
+
+                            <span class="menu-entry">Chickenita Pepperoni </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, poulet rôti, pepperoni, tomates, froma...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCHI2" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCHI2">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/bacon-groovy-pbcg" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Iconique/FR_Iconique_fr_14258.png?v-58853239' alt='Les Iconiques'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PBCG" class="pizza-image" src="/ManagedAssets/FR/product/PBCG/FR_PBCG_fr_menu_13347.png?v-1995365764">
+                            </div>
+
+                            <span class="menu-entry">Bacon Groovy </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, poulet rôti, oignons...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PBCG" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PBCG">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/tasty-kebab-pske2" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PSKE2" class="pizza-image" src="/ManagedAssets/FR/product/PSKE2/FR_PSKE2_fr_menu_14125.png?v-1448395228">
+                            </div>
+
+                            <span class="menu-entry">Tasty Kebab </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, viande kebab, tomate...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PSKE2" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PSKE2">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/pepperoni-party-pppa" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Iconique/FR_Iconique_fr_14258.png?v-58853239' alt='Les Iconiques'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PPPA" class="pizza-image" src="/ManagedAssets/FR/product/PPPA/FR_PPPA_fr_menu_13359.png?v1660664013">
+                            </div>
+
+                            <span class="menu-entry">Pepperoni Party </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, double pepperoni,
+supplément mozzarell...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PPPA" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PPPA">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/cannibale-pcan" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Iconique/FR_Iconique_fr_14258.png?v-58853239' alt='Les Iconiques'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PCAN" class="pizza-image" src="/ManagedAssets/FR/product/PCAN/FR_PCAN_fr_menu_13364.png?v1697565739">
+                            </div>
+
+                            <span class="menu-entry">Cannibale </span>
+                                <p class="menu-page-product-description">Sauce barbecue, mozzarella, poulet rôti, merguez, haché au boeuf...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCAN" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCAN">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/bacon-bbq-burger-pbbb" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PBBB" class="pizza-image" src="/ManagedAssets/FR/product/PBBB/FR_PBBB_fr_menu_13347.png?v-2080013472">
+                            </div>
+
+                            <span class="menu-entry">Bacon BBQ Burger </span>
+                                <p class="menu-page-product-description">Sauce barbecue, mozzarella, double haché au bœuf goût flammé, ba...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PBBB" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PBBB">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/chicken-bbq-pcbq" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCBQ" class="pizza-image" src="/ManagedAssets/FR/product/PCBQ/FR_PCBQ_fr_menu_13347.png?v1371320123">
+                            </div>
+
+                            <span class="menu-entry">Chicken BBQ </span>
+                                <p class="menu-page-product-description">Sauce barbecue, mozzarella, poulet rôti,
+duo de poivrons, oignon...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCBQ" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCBQ">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pizza-category ">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-les-grands-classiques">
+
+
+
+                <span class="subMenuName1">Les</span>
+                    <span class="subMenuName2">Grands Classiques &#127829; </span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/croquemonsieur-pcrq2" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCRQ2" class="pizza-image" src="/ManagedAssets/FR/product/PCRQ2/FR_PCRQ2_fr_menu_14474.png?v-958004915">
+                            </div>
+
+                            <span class="menu-entry">Croque-Monsieur </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, jambon, fromage râpé...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCRQ2" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCRQ2">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/margherita-pmar" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Bons.Plans/FR_Bons.Plans_fr_13393.png?v1255518336' alt='Bons Plans'>
+                                        </li>
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Sans.Viande/FR_Sans.Viande_fr_14158.png?v-1759411565' alt='Sans viande.'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PMAR" class="pizza-image" src="/ManagedAssets/FR/product/PMAR/FR_PMAR_fr_menu_13359.png?v-582155248">
+                            </div>
+
+                            <span class="menu-entry">Margherita </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PMAR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PMAR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/originale-pepperoni-pchp" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Bons.Plans/FR_Bons.Plans_fr_13393.png?v1255518336' alt='Bons Plans'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PCHP" class="pizza-image" src="/ManagedAssets/FR/product/PCHP/FR_PCHP_fr_menu_13359.png?v654522139">
+                            </div>
+
+                            <span class="menu-entry">Originale Pepperoni </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, pepperoni.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCHP" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCHP">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/classique-jambon-pcja" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Bons.Plans/FR_Bons.Plans_fr_13393.png?v1255518336' alt='Bons Plans'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PCJA" class="pizza-image" src="/ManagedAssets/FR/product/PCJA/FR_PCJA_fr_menu_13347.png?v-472694362">
+                            </div>
+
+                            <span class="menu-entry">Classique Jambon </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, jambon.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCJA" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCJA">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/reine-prei" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PREI" class="pizza-image" src="/ManagedAssets/FR/product/PREI/FR_PREI_fr_menu_13359.png?v127129096">
+                            </div>
+
+                            <span class="menu-entry">Reine </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, jambon, champignons de Paris.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PREI" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PREI">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/forestire-pfor" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PFOR" class="pizza-image" src="/ManagedAssets/FR/product/PFOR/FR_PFOR_fr_menu_13359.png?v-1151873917">
+                            </div>
+
+                            <span class="menu-entry">Foresti&#232;re </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, lardons fumés, oigno...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PFOR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PFOR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/indienne-pind" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PIND" class="pizza-image" src="/ManagedAssets/FR/product/PIND/FR_PIND_fr_menu_13359.png?v1738636175">
+                            </div>
+
+                            <span class="menu-entry">Indienne </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, oignons, poulet rôti...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PIND" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PIND">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/ocana-pocea" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_POCEA" class="pizza-image" src="/ManagedAssets/FR/product/POCEA/FR_POCEA_fr_menu_13359.png?v764483105">
+                            </div>
+
+                            <span class="menu-entry">Oc&#233;ana </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, oignons, thon, olives Kalamata bio.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_POCEA" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=POCEA">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/peppina-ppep" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/ManagedAssets/FR/legend/Sans.Viande/FR_Sans.Viande_fr_14158.png?v-1759411565' alt='Sans viande.'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PPEP" class="pizza-image" src="/ManagedAssets/FR/product/PPEP/FR_PPEP_fr_menu_13359.png?v-579186829">
+                            </div>
+
+                            <span class="menu-entry">Peppina </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, champignons de Paris, oignons, duo de ...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PPEP" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PPEP">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pizza-category ">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-les-recettes-du-monde">
+
+
+
+                <span class="subMenuName1">Les</span>
+                    <span class="subMenuName2">Recettes du Monde &#128506;️ </span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/chicken-satay-pcsa" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCSA" class="pizza-image" src="/ManagedAssets/FR/product/PCSA/FR_PCSA_fr_menu_14428.png?v-1604966297">
+                            </div>
+
+                            <span class="menu-entry">Chicken Satay </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, poulet rôti, champig...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCSA" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCSA">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/curry-bangkok-pcubk" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PCUBK" class="pizza-image" src="/ManagedAssets/FR/product/PCUBK/FR_PCUBK_fr_menu_14428.png?v-1592242311">
+                            </div>
+
+                            <span class="menu-entry">Curry Bangkok </span>
+                                <p class="menu-page-product-description">Sauce curry thaï au lait de coco et citronnelle, mozzarella, pou...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PCUBK" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PCUBK">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/sublim-curry-psuc" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PSUC" class="pizza-image" src="/ManagedAssets/FR/product/PSUC/FR_PSUC_fr_menu_13359.png?v1721921305">
+                            </div>
+
+                            <span class="menu-entry">Sublim&#39; Curry </span>
+                                <p class="menu-page-product-description">Crème fraîche légère française, mozzarella, oignons, poulet rôti...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PSUC" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PSUC">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/orientale-pori" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PORI" class="pizza-image" src="/ManagedAssets/FR/product/PORI/FR_PORI_fr_menu_13359.png?v670583150">
+                            </div>
+
+                            <span class="menu-entry">Orientale </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, oignons, merguez, duo de poivrons.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PORI" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PORI">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/hawaenne-phap" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PHAP" class="pizza-image" src="/ManagedAssets/FR/product/PHAP/FR_PHAP_fr_menu_13359.png?v394754989">
+                            </div>
+
+                            <span class="menu-entry">Hawa&#239;enne </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, poulet rôti, ananas.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PHAP" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PHAP">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/spicy-pepperoni-pspp" aria-hidden="true">
+                        <div class="prod-image">
+                                                            <ul class="legends">
+
+                                        <li>
+<img class='legend-img' src='/Content/Images/Spicy.png' alt='Spicy'>
+                                        </li>
+                                </ul>
+
+                            <div class="img-container">
+                                <img id="img_PSPP" class="pizza-image" src="/ManagedAssets/FR/product/PSPP/FR_PSPP_fr_menu_13359.png?v1281094844">
+                            </div>
+
+                            <span class="menu-entry">Spicy Pepperoni </span>
+                                <p class="menu-page-product-description">Sauce tomate, mozzarella, oignons, pepperoni,
+duo de poivrons, p...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PSPP" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PSPP">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pizza-category ">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-crez-votre-pizza">
+
+
+
+                <span class="subMenuName1">Cr&#233;ez</span>
+                    <span class="subMenuName2">Votre Pizza </span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/crez-votre-pizza-plus-dun-million-de-possibilits-pdes.mypiz" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PDES.MYPIZ" class="pizza-image" src="/ManagedAssets/FR/product/PDES.MYPIZ/FR_PDES.MYPIZ_fr_menu_14474.png?v-1789255730">
+                            </div>
+
+                            <span class="menu-entry">Cr&#233;ez votre Pizza - Plus d&#39;un Million de Possibilit&#233;s </span>
+                                <p class="menu-page-product-description">Base au choix, jusqu'à 11 ingrédients au choix dont 3 ingrédient...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PDES.MYPIZ" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PDES.MYPIZ">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/double-kiff-pdes.half" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_PDES.HALF" class="pizza-image" src="/ManagedAssets/FR/product/PDES.HALF/FR_PDES.HALF_fr_menu_13706.png?v-367144944">
+                            </div>
+
+                            <span class="menu-entry">Double Kiff </span>
+                                <p class="menu-page-product-description">2 recettes sur 1 même pizza pour Doubler votre Kiff.
+Le prix app...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_PDES.HALF" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=PDES.HALF">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pizza-category ">
+    <div class="pizza-header">
+        <div class="anchor">
+            <h2 id="submenu-boissons">
+
+
+
+                <span class="subMenuName1">Boissons</span>
+            </h2>
+        </div>
+    </div>
+    <div class="submenu-wrapper">
+
+        
+
+
+        <div class="at-product-menu">
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/cocacola-dcok" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DCOK" class="pizza-image" src="/ManagedAssets/FR/product/DCOK/FR_DCOK_fr_menu_8993.png?v-334487380">
+                            </div>
+
+                            <span class="menu-entry">Coca-Cola </span>
+                                <p class="menu-page-product-description">Depuis 1886, Coca-Cola, c’est un mélange unique de caféine, d'ea...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DCOK" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DCOK">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/cocacola-sans-sucres-dcoz" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DCOZ" class="pizza-image" src="/ManagedAssets/FR/product/DCOZ/FR_DCOZ_fr_menu_8993.png?v227832660">
+                            </div>
+
+                            <span class="menu-entry">Coca-Cola Sans Sucres </span>
+                                <p class="menu-page-product-description">Le goût unique de Coca-Cola sans sucres & sans calories.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DCOZ" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DCOZ">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/cocacola-cherry-dcoc" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DCOC" class="pizza-image" src="/ManagedAssets/FR/product/DCOC/FR_DCOC_fr_menu_8993.png?v-822686453">
+                            </div>
+
+                            <span class="menu-entry">Coca-Cola Cherry </span>
+                                <p class="menu-page-product-description">Le goût unique de Coca-Cola au bon goût de cerise.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DCOC" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DCOC">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/fuze-tea-pche-intense-dfup" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DFUP" class="pizza-image" src="/ManagedAssets/FR/product/DFUP/FR_DFUP_all_menu_9374.jpg?v-1695679739">
+                            </div>
+
+                            <span class="menu-entry">Fuze Tea P&#234;che Intense </span>
+                                <p class="menu-page-product-description">Succombez à la délicieuse fusion de saveurs naturelles : thé noi...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DFUP" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DFUP">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/fuze-tea-citron-vert-menthe-33cl-dfcv" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DFCV" class="pizza-image" src="/ManagedAssets/FR/product/DFCV/FR_DFCV_all_menu_9374.jpg?v-1204639944">
+                            </div>
+
+                            <span class="menu-entry">Fuze Tea Citron Vert Menthe - 33cl </span>
+                                <p class="menu-page-product-description">Boisson au thé vert glacé saveur citron vert & menthe.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DFCV" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DFCV">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/oasis-tropical-dotr" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DOTR" class="pizza-image" src="/ManagedAssets/FR/product/DOTR/FR_DOTR_fr_menu_8993.png?v-212427904">
+                            </div>
+
+                            <span class="menu-entry">Oasis Tropical </span>
+                                <p class="menu-page-product-description">Des fruits, du fun !</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DOTR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DOTR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/oasis-pomme-cassis-framboise-33cl-dopc" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DOPC" class="pizza-image" src="/ManagedAssets/FR/product/DOPC/FR_DOPC_fr_menu_8993.png?v-622892972">
+                            </div>
+
+                            <span class="menu-entry">Oasis Pomme Cassis Framboise - 33cl </span>
+                                <p class="menu-page-product-description">Boisson rafraichissante aux fruits, pomme , cassis, framboise.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DOPC" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DOPC">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/fanta-orange-dfan" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DFAN" class="pizza-image" src="/ManagedAssets/FR/product/DFAN/FR_DFAN_fr_menu_8993.png?v912631001">
+                            </div>
+
+                            <span class="menu-entry">Fanta Orange </span>
+                                <p class="menu-page-product-description">Fun et décalée, Fanta est la boisson pétillante au goût fruité à...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DFAN" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DFAN">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/sprite-got-original-125l-dspr" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DSPR" class="pizza-image" src="/ManagedAssets/FR/product/DSPR/FR_DSPR_fr_menu_4231.png?v1952100262">
+                            </div>
+
+                            <span class="menu-entry">Sprite Go&#251;t Original - 1,25L </span>
+                                <p class="menu-page-product-description">Redécouvrez le bon goût original de Sprite : de l’eau gazéifiée,...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DSPR" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DSPR">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/schweppes-agrumes-33cl-dscb" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DSCB" class="pizza-image" src="/ManagedAssets/FR/product/DSCB/FR_DSCB_all_menu_9416.png?v-2052543792">
+                            </div>
+
+                            <span class="menu-entry">Schweppes Agrumes - 33cl </span>
+                                <p class="menu-page-product-description">Boisson gazeuse aux saveurs d'orange, de pamplemousse, de citron...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DSCB" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DSCB">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/cristaline-plate-50cl-dcpl0500" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DCPL0500" class="pizza-image" src="/ManagedAssets/FR/product/DCPL0500/FR_DCPL0500_fr_menu_12841.png?v13652899">
+                            </div>
+
+                            <span class="menu-entry">Cristaline Plate 50cl </span>
+                                <p class="menu-page-product-description">Eau minérale naturelle.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DCPL0500" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DCPL0500">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/cristaline-ptillante-50cl-dcgz0500" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DCGZ0500" class="pizza-image" src="/ManagedAssets/FR/product/DCGZ0500/FR_DCGZ0500_fr_menu_12841.png?v521288758">
+                            </div>
+
+                            <span class="menu-entry">Cristaline P&#233;tillante 50cl </span>
+                                <p class="menu-page-product-description">Eau minérale gazeuse.</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DCGZ0500" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DCGZ0500">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/monster-energy-50cl-dmen0500" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_DMEN0500" class="pizza-image" src="/ManagedAssets/FR/product/DMEN0500/FR_DMEN0500_all_menu_9314.png?v-192291634">
+                            </div>
+
+                            <span class="menu-entry">Monster Energy - 50cl </span>
+                                <p class="menu-page-product-description">Boisson énergisante gazeuse enrichie en vitamines, ginseng et ta...</p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_DMEN0500" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=DMEN0500">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a class="product-page-link" href="/la-carte-pizza/thylotest-ethyl" aria-hidden="true">
+                        <div class="prod-image">
+                            
+                            <div class="img-container">
+                                <img id="img_ETHYL" class="pizza-image" src="/ManagedAssets/FR/product/ETHYL/FR_ETHYL_all_menu_9005.jpg?v1066440496">
+                            </div>
+
+                            <span class="menu-entry">&#201;thylotest </span>
+                                <p class="menu-page-product-description"></p>
+                        </div>
+
+
+                    </a>
+
+                    <div class="prod-footer">
+                            <span class="kjs">
+                            </span>
+
+                        <a id="order_ETHYL" class="order-now red-button white-text" href="https://commande.dominos.fr/?pc=ETHYL">
+                            COMMANDEZ
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+    <!-- Pizza chef -->
+    
+
+
+
+    </pizzamenus>
+
+
+
+<div id="footer">
+
+
+<div class="disclaimer-section">
+                <div class="disclaimers">
+                    <div style="padding: 15px; max-width: 1024px; margin: 0 auto;">
+<p style="font-size: 11px; line-height: 12px; text-align: justify;" class="asterisk1 grey-text">Certains magasins du réseau Domino’s Pizza facturent des frais supplémentaires d’un montant maximum de 3,90 € TTC au titre des frais de livraison. Les frais de livraison s’ajoutent aux prix des produits livrés et s’affichent dans la commande sous le libellé « Frais de livraison ». Tarifs, zones et conditions de livraison : renseignements auprès de votre Domino’s ou sur dominos.fr. Par sécurité, nos livreurs ne sont pas rémunérés à la course ni pénalisés en cas de retard, et sont en possession de moins de 15€. Afin de garantir la sécurité de nos livreurs, le délai de livraison peut être plus long en cas d'intempéries ou de mauvais temps. Merci de noter que certains coupons ne sont pas pris en compte sur Internet. L'abus d'alcool est dangereux pour la santé. À consommer avec modération. La vente d'alcool aux mineurs de moins de 18 ans, et après 22h est interdite. Coca-Cola, Fanta, Sprite sont des marques déposées de The Coca-Cola Company. FUZE TEA est une marque déposée de DP Beverages Limited. **Halal : Merguez, poulet rôti, haché au bœuf goût flammé = Assaisonné avec eau ajoutée. Fabriqué à partir de viande de bœuf certifiée Halal. Chicken = poulet, Sweet &amp; Spicy = doux et piquant, Cheese = fromage, Bread = pain, Spicy = piquant, Chill = détente, Party = fête, Crazy = fou, Beef = haché au bœuf goût flammé. Visuels non contractuels. Exemples de présentation. Livraison de votre pizza 7j/7. Domino’s Pizza, le spécialiste de la pizza à emporter ou en livraison à domicile. Toutes les valeurs nutritionnelles sont issues de calculs théoriques (sur une portion de 100gr) basés sur les données de nos fournisseurs. Ces valeurs peuvent varier légèrement lors de la fabrication des produits dans nos magasins.</p>
+</div>
+                </div>
+                <div class="links">
+                    <div class="links">
+<div class="default">
+<ul class="odd">
+<li class="title" style="font-family: EvelethCleanThin; font-weight: bold; color: #454545; font-size: 14px; text-transform: uppercase; letter-spacing: 0; margin-bottom: 5px;">NOS PRODUITS</li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-offres/les-iconiques">Les iconiques</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/la-carte" title="La Carte">La Carte</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-produits/les-menus">Les Menus</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/nos-produits/recettes-de-pizza" title="Recettes de Pizza">Recettes de Pizza</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/dominos-pizza/cree-ta-pizza">Créez votre pizza</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/dominos-pizza/double-kiff" title="Double Kiff">Double Kiff</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-produits/my-dominos-box">My Domino's Box</a></li>
+</ul>
+<ul class="even">
+<li class="title" style="font-family: EvelethCleanThin; font-weight: bold; color: #454545; font-size: 14px; text-transform: uppercase; letter-spacing: 0; margin-bottom: 5px;">DOMINO'S PIZZA</li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/dominos-pizza/la-marque/nos-engagements-dominos" title="Nos engagements Dominos">Nos engagements</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="https://www.dominos.fr/dominos-pizza/nouvelle-app">Nouvelle App'</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/dominos-pizza/dominos-programme-fidelite">Fidélité</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/dominos-pizza/nutriscore" title="Nutriscore">Nutriscore</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/dominos-pizza/presse" title="Presse">Presse</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/eclub" title="Eclub">Newsletter </a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/dominos-pizza/cookies" title="Cookies">Cookies</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/dominos-pizza/donnees-personnelles" title="Donnees personnelles">Données personnelles</a></li>
+</ul>
+<ul class="odd">
+<li class="title" style="font-family: EvelethCleanThin; font-weight: bold; color: #454545; font-size: 14px; text-transform: uppercase; letter-spacing: 0; margin-bottom: 5px;">NOUS CONTACTER</li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin;"><a style="color: #454545; font-size: 10px; letter-spacing: 0; text-transform: initial;" tabindex="-1" href="/nous-contacter/service-clients" title="Service Clients">Service clients</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/nous-contacter/politique-de-divulgation-responsable" title="Politique de divulgation responsable">Politique de divulgation responsable</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nous-contacter/alerte-fraude">Lutte anti-fraude</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="https://www.dominos.fr/nous-contacter/preference-center" title="Gerer mes abonnements">Gérer mes abonnements</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="https://carrieres.dominos.fr/">Travailler chez Dominos</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="https://carrieres.dominos.fr/comment-devenir-franchise">Devenir Franchise</a></li>
+</ul>
+<ul class="Offers even">
+<ul class="Offers even">
+<li class="title" style="font-family: EvelethCleanThin; font-weight: bold; color: #454545; font-size: 14px; text-transform: uppercase; letter-spacing: 0; margin-bottom: 5px;">EN CE MOMENT</li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-offres/spy-family">Spy Family x Domino's</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/dominos-pizza/le-foot-et-domino-s">Le Foot et Domino's avec Omar Da Fonseca</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-produits/direction-la-thailande">Direction la Thaïlande !</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-offres/pret-a-grailler" title="Prêt à grailler.">Prêt à grailler</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-offres/midi-interdit">Midi Interdit</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/dominos-pizza/mardis-jeudis-fous">Jours Fous</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/nos-offres/offre-speciale-livraison">Toc Toc Days</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a href="https://www.dominos.fr/ope-locales/operations-locales">Nos opérations locales</a></li>
+</ul>
+</ul>
+<br />
+<ul class="Offers odd">
+<li class="title" style="font-family: EvelethCleanThin; font-weight: bold; color: #454545; font-size: 14px; text-transform: uppercase; letter-spacing: 0; margin-bottom: 5px;">Près de chez vous</li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/regions/ile-de-france/paris" title="Paris">Pizzas Paris</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/regions/rhone-alpes/lyon" title="Lyon">Pizzas Lyon</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/regions/provence-alpes-cote-d-azur/marseille" title="Marseille">Pizzas Marseille</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/regions/nord-pas-de-calais/lille" title="Lille">Pizzas Lille</a></li>
+<li style="margin-bottom: 5px; font-family: EvelethCleanThin; font-size: 10px; letter-spacing: 0; text-transform: initial;"><a tabindex="-1" href="/regions/pays-de-la-loire/nantes" title="Nantes">Pizzas Nantes</a></li>
+</ul>
+<p> </p>
+</div>
+</div>
+                </div>
+                <div class="social">
+                    <div class="footer-block social" style="height:unset !important;max-height:unset !important">
+        <div class="appLogo">
+                            <div>Téléchargez nos applications</div>
+                                        <a href="https://apps.apple.com/fr/app/dominos-pizza-france/id596817115" target="_blank">
+
+                    <img id="iTunes-badge" src="/media/xgejnygi/app-store-1.jpg" alt="Téléchargez maintenant l’application Domino’s Pizza sur iPhone">
+                </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.dominos.dominossite&amp;hl=fr" target="_blank">
+
+                    <img src="/media/0f1ng0aj/googleplay.jpg" alt="Téléchargez l’application Domino’s Pizza sur Android">
+                </a>
+        </div>
+        <div class="socialLogo">
+<br><br>
+                            <div>Suivez-nous</div>
+                                        <a href="https://www.facebook.com/dominospizzafrance" target="_blank">
+                    <img src="/media/zmkn5joz/facebook.jpg" alt="Devenez fan sur Facebook">
+                </a>
+
+                <a href="https://twitter.com/DominosFrance" target="_blank">
+                    <img src="/media/x1pocyth/twitter.jpg" alt="Twitter">
+                </a>
+
+<a href="https://www.instagram.com/dominospizza_france/?hl=fr" target="_blank">
+                    <img src="/media/wp4jrhvi/instagram.jpg" alt="Suivez nous sur Instagram">
+                </a>
+
+<a href="https://www.youtube.com/user/DominosPizzaFrance" target="_blank">
+                    <img src="/media/urzfqgat/youtube.jpg" alt="Suivez nous sur YouTube">
+                </a>
+
+<a href="https://www.tiktok.com/@dominospizzafr" target="_blank">
+                    <img src="/media/23cbid2t/tik-tok.jpg" alt="Suivez nous sur Tik Tok">
+                </a>
+
+
+                                </div>
+        <div class="payment">
+<br><br>
+                            <div>Payez en toute sécurité avec</div>
+                                        <img src="/media/n3sjf3ec/mastercard.jpg" alt="Master Card">
+                <img src="/media/apegnzsg/visa.jpg" alt="Visa">
+<img src="/media/3uyagboz/maestro.jpg" alt="Maestro">
+ <a href="https://www.dominos.fr/dominos-pizza/edenred" target="_blank">
+<img src="/media/aitpdylm/sans-titre-12.png" alt="Edenred"> 
+<img src="media/tnbnm5eg/design-sans-titre-3.png" alt="PayPal">
+        </div>
+</div>
+                </div>
+                <div class="privacy">
+                    <div class="footer-block declaration">
+<p style="text-align: center;" class="legaltext"><a tabindex="-1" href="/dominos-pizza/mentions-legales" title="Mentions legales">Mentions legales </a><br /><a tabindex="-1" href="/dominos-pizza/conditions-generales-de-vente" title="Conditions generales de vente">Conditions generales de vente </a><br /><a href="https://www.dominos.fr/dominos-pizza/cookies" class="optanon-toggle-display">Paramètres des cookies</a></p>
+<p style="text-align: center;" class="legaltext">Pour votre santé, mangez au moins cinq fruits et légumes par jour <a rel="noopener" tabindex="-1" href="https://www.mangerbouger.fr/" target="_blank">www.mangerbouger.fr</a></p>
+</div>
+                </div>
+
+
+
+</div>
+
+    <div class="footer-block declaration">
+        <p id="debug-info">PublicWebsiteResponsive V1.0.0-(2025.3.26.5) [pd0mdwk0012EP - 10.20.32.39 - AUE]</p>
+    </div>
+</div>    </div>
+
+    <script src="/Content/Scripts/lozad.min.js"></script>
+
+</body>
+</html>
